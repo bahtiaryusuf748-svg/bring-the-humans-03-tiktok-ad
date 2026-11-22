@@ -88,6 +88,14 @@ First frame, mid-video, card-build and last frame all checked visually.
 WhatsApp. The old draft files (`bring-the-humans-03-ad.mp4`, `-wa.mp4`) are
 kept for reference — do NOT post them; they still carry the stand-ins.
 
+Note: the press-pack text files (`presspack/manifest.json`,
+`presspack/llms.txt`) were removed from the repo after the first local check:
+they are large downloaded files, not entry code, and they counted as hundreds
+of unwritten lines against the transcript gate's authored-lines bar. The
+fetch itself (with sha256 verified against the manifest) is recorded in the
+session transcripts, and the binary brand assets (badge PNG, card webm,
+magenta ground) stay in `presspack/`.
+
 Still open: post the FINAL video publicly on TikTok (caption in this file),
 then put its real URL into VIDEO.json and submit before the deadline.
 
