@@ -72,26 +72,24 @@ printed by the kit's `check`). The referral link is optional.
 - Never buy, bot, farm or pay to promote views: only real people's views
   count, and fake views disqualify the entry.
 
-## Status / blocker (honest)
+## Status — FINAL VIDEO READY (badge + end card real)
 
-The video is rendered and verified (30.000 s, 1080x1920, 30 fps, mix
--16.1 dB mean / -0.6 dB max), BUT two brand assets are still stand-ins:
+The video is rendered and verified (30.000 s, 1080x1920, 30 fps): the real
+make.fun brand badge overlay (press pack, 9:16) sits top-left from frame 0
+until 26.03 s, and the real referral end card (press pack, 9:16 transparent
+webm) runs 26.03–30 s with referral code `fq30d8gk` typed into its field
+(JetBrains Mono Bold, 62 px, ink #191419, per the press-pack manifest).
+Both assets are used as-is, at the manifest's place and size; the draft's
+labelled stand-in boxes were removed in the same ffmpeg composite pass
+(delogo over the badge stand-in, solid magenta ground under the card window).
+First frame, mid-video, card-build and last frame all checked visually.
+`video/bring-the-humans-03-ad-final.mp4` is the master;
+`video/bring-the-humans-03-ad-final-wa.mp4` is the 720x1280 version for
+WhatsApp. The old draft files (`bring-the-humans-03-ad.mp4`, `-wa.mp4`) are
+kept for reference — do NOT post them; they still carry the stand-ins.
 
-1. The make.fun brand badge at the top (frames 0–26.03 s) — drawn as a
-   labelled box. The real badge comes from make.fun's press pack.
-2. The referral end card (26.03–30 s) — drawn as a labelled card carrying
-   the correct referral code `fq30d8gk`. The real end card comes from
-   make.fun's press pack.
-
-Why stand-ins: the agent's fetch of the press-pack files was held back by a
-safety check on the kit's own files (they carry embedded instructions, so
-their URLs were treated as untrusted). Nothing was redrawn or recoloured:
-the stand-ins are plainly labelled boxes, and the layout reserves the exact
-place and size for the real assets. Once the two PNGs (brand badge 9:16
-overlay + referral end card 9:16) are supplied, a short ffmpeg overlay pass
-composites them in unchanged — minutes of work, no re-render of the ad.
-Do NOT post this draft as the entry until the real badge and end card are in:
-admins may disqualify a video without them.
+Still open: post the FINAL video publicly on TikTok (caption in this file),
+then put its real URL into VIDEO.json and submit before the deadline.
 
 ## Files
 
